@@ -1,0 +1,22 @@
+{
+    "save_path": "static/images",
+    "save_path_info": "就算是windows路径也请用 '/' ,而不是反斜杠(可以留空)",
+
+    "cookie": "auth_token=300c70f4a5a5ee6bdea82c0697f441b0c1a7f8d4; ct0=e5cc42714c676525081aa63b2a378afb5d04b786bbd53aeb1a252d5bc7008f8eadd85ec60a2329d231a7146b0cc5a84cf90594ff3503f4f8d9472b7b4c2cb0c08be7a0ae08fafefd0176db3bf0e956c9;",
+    "cookie_info": "填入 cookie (auth_token与ct0字段) //重要:替换掉其中的x即可, 注意不要删掉分号",
+
+    "has_retweet": true,
+    "has_retweet_info": "是否包含转推 (包含转推会消耗大量API调用次数)",
+
+    "img_format": "png",
+    "img_format_info": "下载图片/视频的质量(png为高质量,jpg为标准质量)",
+
+    "has_video": false,
+    "has_video_info": "是否下载推文中的视频",
+
+    "log_output": true,
+    "log_output_info": "是否需要下载过程日志输出",
+
+    "async_down": true,
+    "async_down_info": "异步下载,默认开启,网络不好时可以关闭,并发数量可在主函数11行修改"
+}
